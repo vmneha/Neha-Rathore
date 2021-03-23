@@ -1,0 +1,57 @@
+<!--<section id="contact">
+  <div class="container-fluid">
+    <h2>Contact us</h2>
+    <p>
+      Do you have questions? please do not hesitate to contact us directly.
+      our mail team will be happy to help you
+    </p>
+    <div class="row" stlye="padding:6%;">
+      <div class="col-lg-5">
+        <input type="text" id="Email" placeholder="Your email" class="form-control">
+      </div>
+      <div class="col-lg-5">
+        <input type="text" id="Message" placeholder="Your email" class="form-control">
+      </div>
+      <div class="col-lg-2">
+        <button type="button" class="btn btn-md btn-block btn-primary">Send</button>
+      </div>
+    </div>
+  </div>-->
+<!--second row-->
+<!--</section>-->
+<br />
+<hr />
+<h1>Java-Course-Details</h1>
+<hr />
+<br />
+
+<table id="customers">
+  <tr>
+    <th>Course Id</th>
+    <th>Course Name</th>
+    <th>Course Price</th>
+    <th>Course Description</th>
+    <th>Trainers </th>
+  </tr>
+  <tr *ngFor="let product of products | filter:{productId:searchText,productName: searchText,productPrice: searchText, productDescription: searchText}| sort:'asc':'productName';">
+
+    <td>
+      {{product.productId}}
+    </td>
+    <td>
+      {{product.productName}}
+    </td>
+    <td>
+      {{product.productPrice}}
+    </td>
+    <td>
+      {{product.productDescription}}
+    </td>
+    <td>
+      <img [src]='product.image' width="80" height="75">
+    </td>
+  </tr>
+</table>
+
+<br />
+<br />

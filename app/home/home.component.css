@@ -1,0 +1,134 @@
+/*h1 {
+  text-align: center;
+}
+*/
+h1 {
+  font-family: "Montserrat";
+  font-size: 4rem;
+}
+
+#content {
+  padding: 8%;
+}
+
+#home {
+  background-color: #78f3f3;
+}
+
+#btnwidth {
+  width: 150px;
+}
+
+.container-fluid {
+  padding: 3%;
+}
+
+#services {
+  padding: 8%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footericon i {
+  margin: 1%;
+  font-size: 2rem;
+}
+
+#contact {
+  padding: 4%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+.icons {
+  font-size: 4rem;
+}
+
+button{
+    color:wheat;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 4rem;
+}
+
+#content {
+  padding: 8%;
+}
+
+#home {
+  background-color: #DCE6F0;
+}
+
+#btnwidth {
+  width: 150px;
+}
+
+.container-fluid {
+  padding: 3%;
+}
+
+#services {
+  padding: 8%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+}
+
+#footer {
+  text-align: center;
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footericon i {
+  margin: 1%;
+  font-size: 2rem;
+}
+
+#contact {
+  padding: 4%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+.icons {
+  font-size: 4rem;
+}
+
+p{
+    text-align:center;
+}
+h2{
+    text-align:center;
+    color:#1e1515;
+}
+h1{
+    text-align:center;
+}
+h4{
+    text-align:center;
+}
+/*img {
+  border: groove;
+}*/
+nr{
+    width:100px;
+    height:50px;
+}

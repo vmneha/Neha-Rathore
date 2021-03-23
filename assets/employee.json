@@ -1,0 +1,20 @@
+[
+  {
+    "id": 101,
+    "name": "neharathore",
+    "email": "neha@gmail.com",
+    "image": "../assets/Air2.jpg"
+  },
+  {
+    "id": 102,
+    "name": "nikitarathore",
+    "email": "neha@gmail.com",
+    "image": "../assets/Air3.jpg"
+  },
+  {
+    "id": 103,
+    "name": "rakhi rathore",
+    "email": "rakesh@gmail.com",
+    "image": "../assets/Air4.jpg"
+  }
+]

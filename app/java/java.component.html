@@ -1,0 +1,95 @@
+<!--<p>java works!{{jname}}</p>-->
+<!--<p>Java works{{jname}}></p-->
+<!--<nav>
+  <a [routerLink]='["corejava"]' routerLinkActive='active'>Core java</a>|
+  <a [routerLink]='["advjava"]' routerLinkActive='active'>Adv java</a>
+</nav>-->
+<!--<router-outlet></router-outlet>-->
+<app-header></app-header>
+<section id="services">
+  <div class="container-fluid">
+    <hr />
+    <h2>Technalogy Details and Type</h2>
+    <p>Simple and affordable pricing plans for you </p>
+    <hr />
+    <div class="row">
+      <!--Card 1-->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Technalogy</h3>
+          </div>
+          <div class="card-body">
+            <h2>Java</h2>
+            <p> Platform independent</p>
+            <p>Architectural neutral</p>
+            <p>Portable</p>
+            <p> Multi threading</p>
+            <img src="../assets/jabat1.jfif" class="img-rounded" alt="Cinque Terre" width="75" height="75">
+            <!--<a [routerLink]='["corejava"]' routerLinkActive='active'>Core java</a>|-->
+            <button [routerLink]='["corejava"]' routerLinkActive='active' type="button" class="btn btn-lg btn-dark btn-block">Course-Details</button>
+          </div>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Technalogy</h3>
+          </div>
+          <div class="card-body">
+            <h2> Web</h2>
+            <p> Ease of Mobility</p>
+            <p>The World Wide Web</p>
+            <p>Saves Time</p>
+            <p> Cost Efficiency</p>
+            <img src="../assets/webat1.jfif" class="img-rounded" alt="Cinque Terre" width="75" height="75">
+            <!--<a [routerLink]='["advjava"]' routerLinkActive='active'>Adv java</a>-->
+            <button [routerLink]='["advjava"]' routerLinkActive='active' type="button" class="btn btn-lg btn-dark btn-block">Course-Details</button>
+          </div>
+        </div>
+      </div>
+      <!--Card 3-->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Technalogy</h3>
+          </div>
+          <div class="card-body">
+            <h2>.Net</h2>
+            <p>Open Source</p>
+            <p>Mature Framework</p>
+            <p>Cross-Platform</p>
+            <p>Increased Security</p>
+            <img src="../assets/netat1.jfif" class="img-rounded" alt="Cinque Terre">
+            <button [routerLink]='["net"]' routerLinkActive='active' type="button" class="btn btn-lg btn-dark btn-block">Course-Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--<section id="contact">
+  <div class="container-fluid">
+    <h2>Contact us</h2>
+    <p>
+      Do you have questions? please do not hesitate to contact us directly.
+      our mail team will be happy to help you
+    </p>
+    <div class="row" stlye="padding:6%;">
+      <div class="col-lg-5">
+        <input type="text" id="Email" placeholder="Your email" class="form-control">
+      </div>
+      <div class="col-lg-5">
+        <input type="text" id="Message" placeholder="Your email" class="form-control">
+      </div>
+      <div class="col-lg-2">
+        <button type="button" class="btn btn-md btn-block btn-primary">Send</button>
+      </div>
+    </div>
+    </div>-->
+    <!--second row-->
+<!--</section>-->
+<router-outlet></router-outlet>
+<app-footer></app-footer>

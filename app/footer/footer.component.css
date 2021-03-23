@@ -1,0 +1,19 @@
+#footer {
+  text-align: center;
+
+}
+
+.footericon i {
+  margin: 1%;
+  font-size: 2rem;
+}
+
+#contact {
+  padding: 4%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+.icons {
+  font-size: 4rem;
+}

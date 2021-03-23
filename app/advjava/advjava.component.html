@@ -1,0 +1,56 @@
+<br />
+<hr />
+<h1>Web-Technalogy-Details</h1>
+<hr />
+<br />
+
+<table id="customers">
+  <tr>
+    <th>Course Id</th>
+    <th>Course Name</th>
+    <th>Course Price</th>
+    <th>Course Description</th>
+    <th>Course Image</th>
+  </tr>
+  <tr *ngFor="let product of courses | filter:{courseId:searchText,courseName: searchText,coursePrice: searchText, courseDescription: searchText};">
+
+    <td>
+      {{product.courseId}}
+    </td>
+    <td>
+      {{product.courseName}}
+    </td>
+    <td>
+      {{product.coursePrice}}
+    </td>
+    <td>
+      {{product.courseDescription}}
+    </td>
+    <td>
+      <img [src]='product.image' width="90" height="60">
+    </td>
+  </tr>
+</table>
+<br />
+<!--<footer id="footer">
+  <div class="footericon">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-snapchat"></i>
+  </div>
+  <p>@Copyright 2021 all right reserved</p>
+</footer>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />-->
+
+
+
+
+

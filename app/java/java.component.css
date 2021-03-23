@@ -1,0 +1,26 @@
+a{
+    color:deepskyblue;
+}
+h3{
+    text-align:center;
+   /* background-color:#73e4e4;*/
+    
+}
+h2{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+
+img {
+  border-radius: 2px;
+  width: 100px;
+  height: 85px;
+ padding-top: 0px;
+ margin-left:150px;
+ margin-bottom:5px;
+}
+
+
+

@@ -1,0 +1,33 @@
+<br />
+<hr />
+<h1>.Net-Technalogy-Details</h1>
+<hr />
+<br />
+
+<table id="customers">
+  <tr>
+    <th>Course Id</th>
+    <th>Course Name</th>
+    <th>Course Price</th>
+    <th>Course Description</th>
+    <th>Course Image</th>
+  </tr>
+  <tr *ngFor="let product of products | filter:{productId:searchText,productName: searchText,productPrice: searchText, productDescription: searchText}| sort:'asc':'productName';">
+
+    <td>
+      {{product.productId}}
+    </td>
+    <td>
+      {{product.productName}}
+    </td>
+    <td>
+      {{product.productPrice}}
+    </td>
+    <td>
+      {{product.productDescription}}
+    </td>
+    <td>
+      <img [src]='product.image' width="80" height="50">
+    </td>
+  </tr>
+</table>
